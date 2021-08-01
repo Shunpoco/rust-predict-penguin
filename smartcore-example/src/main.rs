@@ -11,7 +11,7 @@ use std::convert::TryFrom;
 use std::fs::File;
 use std::path::Path;
 
-use polars::prelude::*;
+use polars::prelude::*; // {CsvReader, DataType, Field, Result(as PolarResult), Schema, DataFrame}
 use polars::frame::DataFrame;
 use polars::prelude::Result as PolarResult;
 use polars::prelude::SerReader;
